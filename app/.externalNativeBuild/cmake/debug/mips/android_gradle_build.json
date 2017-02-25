@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/huanhong_workspace/Compress/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\android-sdk\\cmake\\bin\\cmake.exe --build E:\\huanhong_workspace\\Compress\\app\\.externalNativeBuild\\cmake\\debug\\mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\android-sdk\\cmake\\bin\\cmake.exe --build E:\\huanhong_workspace\\Compress\\app\\.externalNativeBuild\\cmake\\debug\\mips --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/android-ndk-r12b/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-ndk-r12b/platforms/android-16/arch-mips  -Dnative_lib_EXPORTS -isystem D:\\android-ndk-r12b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\android-ndk-r12b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\include -isystem D:\\android-ndk-r12b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/huanhong_workspace/Compress/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/huanhong_workspace/Compress/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "E:/huanhong_workspace/Compress/app/build/intermediates/cmake/debug/obj/mips/libnative-lib.so",
+			"toolchain" : "1995973877"
+		}
+	},
+	"toolchains" : 
+	{
+		"1995973877" : 
+		{
+			"cCompilerExecutable" : "D:/android-ndk-r12b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-ndk-r12b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

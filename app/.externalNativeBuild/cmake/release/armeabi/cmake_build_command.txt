@@ -1,0 +1,15 @@
+Executable : D:\android-sdk\cmake\bin\cmake.exe
+arguments : 
+-HE:\nick\jpeg-android\app
+-BE:\nick\jpeg-android\app\.externalNativeBuild\cmake\release\armeabi
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi
+-DANDROID_NDK=D:\android-ndk-r12b
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\nick\jpeg-android\app\build\intermediates\cmake\release\obj\armeabi
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=D:\android-sdk\cmake\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\android-sdk\cmake\android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=16
+-DCMAKE_CXX_FLAGS=
+jvmArgs : 
+

@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "E:/nick/jpeg-android/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\android-sdk\\cmake\\bin\\cmake.exe --build E:\\nick\\jpeg-android\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"jpeg-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "jpeg",
+			"buildType" : "debug",
+			"output" : "../../../../libs/armeabi/libjpeg.so",
+			"toolchain" : "1995973877"
+		},
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\android-sdk\\cmake\\bin\\cmake.exe --build E:\\nick\\jpeg-android\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/android-ndk-r12b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/android-ndk-r12b/platforms/android-16/arch-arm  -Dnative_lib_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp\\include -isystem D:\\android-ndk-r12b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\android-ndk-r12b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem D:\\android-ndk-r12b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/nick/jpeg-android/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/nick/jpeg-android/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/nick/jpeg-android/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "1995973877"
+		}
+	},
+	"toolchains" : 
+	{
+		"1995973877" : 
+		{
+			"cCompilerExecutable" : "D:/android-ndk-r12b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android-ndk-r12b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
